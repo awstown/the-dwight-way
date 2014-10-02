@@ -3,7 +3,6 @@ layout: post
 title: Cover Letter
 meta: Future stuff
 source: cite your sources bitch
-category: news
 ---
 
 Cover_Letter
