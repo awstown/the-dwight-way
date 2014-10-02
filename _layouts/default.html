@@ -12,26 +12,25 @@
   </head>
   <body>
   
-  {% include the-dwight-way/header.html %}
-  
-  <div class="container">
-     
-     <div class="blog-header">
-        <p class="lead blog-description">the right way, the wrong way, and the...</p>
-        <h1 class="blog-title">the-dwight-way</h1>
-      </div>  
-  </div>
+  {% include {{site.baseurl}}/header.html %}
   
   <div class="container">
 
       <div class="blog-header">
+        <p class="lead blog-description">the right way, the wrong way, and the...</p>
         <h1 class="blog-title">the-dwight-way</h1>
-        <p class="lead blog-description">Right way, wrong way, and the dwight way</p>
       </div>
 
       <div class="row">
 
         <div class="col-sm-8 blog-main">
+
+          {{ for post in site.posts }}
+          <div class="blog-post">
+            <h2 class="blog-post-title">{{ post.title }}</h2>
+            <p class="blog-post-meta">{{ post.date }} <a href="#">Mark</a></p>
+            {{ post.content }}
+          {{ endfor }}
 
           <div class="blog-post">
             <h2 class="blog-post-title">Sample blog post</h2>
