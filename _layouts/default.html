@@ -25,12 +25,12 @@
 
         <div class="col-sm-8 blog-main">
 
-          {{ for post in site.posts }}
+          {% for post in site.posts %}
           <div class="blog-post">
             <h2 class="blog-post-title">{{ post.title }}</h2>
             <p class="blog-post-meta">{{ post.date }} <a href="#">Mark</a></p>
             {{ post.content }}
-          {{ endfor }}
+          {% endfor %}
 
           <div class="blog-post">
             <h2 class="blog-post-title">Sample blog post</h2>
