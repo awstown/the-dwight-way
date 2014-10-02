@@ -1,3 +1,11 @@
+---
+layout: default
+title: Cover Letter
+meta: Future stuff
+source: cite your sources bitch
+category: news
+---
+
 Cover_Letter
 
 I've been a user of github since my junior year of college. I first joined because I was trying to join a quantum computing programming research program. 
