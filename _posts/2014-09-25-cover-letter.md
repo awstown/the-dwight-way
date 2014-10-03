@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Cover Letter
 meta: Future stuff
 source: cite your sources bitch
